@@ -1,0 +1,62 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution and build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python type checking
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Process files
+process-*
+
+# Python executable
+uv.exe
+
+# Extension configuration
+extension.json
+
+# PyDev files
+*.pydev
+.pydevproject
+.project
